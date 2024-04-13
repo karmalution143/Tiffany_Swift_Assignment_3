@@ -48,8 +48,7 @@ class CruiseShip : Ship {
     }
 }
 
-let cruiseShip = CruiseShip(name: "Karmic Cruise", year: 1998, countryOfOrigin: "USA", maxCapacity: 5000, oceanOfOperation: "Pacific", currentPassengerCount: 4999
-)
+let cruiseShip = CruiseShip(name: "Karmic Cruise", year: 1998, countryOfOrigin: "USA", maxCapacity: 5000, oceanOfOperation: "Pacific", currentPassengerCount: 4999)
 
 //PRINTS
 
