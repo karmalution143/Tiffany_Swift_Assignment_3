@@ -42,9 +42,7 @@ class CruiseShip : Ship {
     func printCurrentPassengerCount() {
         if currentPassengerCount < maxCapacity {
             print("The current passenger count is \(currentPassengerCount)")
-        } else {
-            print("Max capacity, do not add passenger")
-        }
+        } 
     }
 }
 
@@ -88,9 +86,7 @@ print("Welcome to \(cruiseShip.name), we are so excited to begin our trip throug
      func printCurrentCargoCount() {
          if currentCargoCount < maxCargoCapacity {
              print("The current cargo count is \(currentCargoCount)")
-         } else {
-             print("Max capacity, do not add cargo")
-         }
+         } 
      }
 }
 
@@ -132,9 +128,7 @@ class PirateShip: Ship {
     func printCurrentTreasureCount() {
         if currentTreasureCount < maxTreasureCapacity {
             print("The current treasure count is \(currentTreasureCount)")
-        } else {
-            print("Max capacity, do not add treasure")
-        }
+        } 
     }
 }
 
